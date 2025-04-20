@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
-from google import genai
+import google.generativeai as genai
+
 
 app = Flask(__name__, template_folder='templates')
 
